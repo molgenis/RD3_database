@@ -30,3 +30,4 @@ Attributes:
 | sex | The child can have an unknown sex (before analysis) | Under discussion |
 | phenotype | Extra phenotype information by adding:PhenopacketsID? | Not Yet |
 | Remark | In general, the experiment and the subject are submitted by the same organization, but there could be exeptions to this rule, so it is great to have the attributes both in the subject and in the experiment.| Not Yet
+| Not Present | Cohort building, how do we want to register this? In GPAP or RD3 | Need to be discussed|
