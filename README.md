@@ -17,10 +17,11 @@ All entities are:
 * File - Individual files on file systems so we can find them back, linked to the datasets describing them.
 * Person 
 * [Dataset](/datamodel/dataset.md) - Collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
+* [Disease inheritance](/datamodel/disease inheritance.md) - Description of known inheritance linked to disease and possibly mutation
 
 CodeList (Ontologies)
 * [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
-* dataUseConditions -  Code list describing different types of conditions to access the data
+* [dataUseConditions](/datamodel/dataUseConditions.md) -  Code list describing different types of conditions to access the data
 * disease - ICD-10 codes example_data; from C00 till C06.2
 * materialType - Code list for materialType, e.g. DNA
 * phenotype - Code list for phenotype, e.g. HPO term
