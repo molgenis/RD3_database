@@ -17,7 +17,7 @@ All entities are:
 * File - Individual files on file systems so we can find them back, linked to the datasets describing them.
 * Person 
 * [Dataset](/datamodel/dataset.md) - Collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
-* [Disease inheritance](/datamodel/disease inheritance.md) - Description of known inheritance linked to disease and possibly mutation
+* [Disease inheritance](/datamodel/diseaseInheritance.md) - Description of known inheritance linked to disease and possibly mutation
 
 CodeList (Ontologies)
 * [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
