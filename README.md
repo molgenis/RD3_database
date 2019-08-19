@@ -13,6 +13,7 @@ All entities are:
 * [Study](/datamodel/study.md) - Container for all activities. Contains datasets
 * [Organisation](/datamodel/organisation.md) - Organisation involved in the study
 * [Subject](/datamodel/subject.md) - Human subjects, typically patients or family members
+* [SubjectInfo](/datamodel/SubjectInfo.md) - Extra information about subject
 * [Sample](/datamodel/sample.md) - Samples used as input for the analysis
 * [File](/datamodel/file.md) - Individual files on file systems so we can find them back, linked to the datasets describing them.
 * [Person](/datamodel/person.md) - Researcher or other person involved in the study  
@@ -23,6 +24,8 @@ All entities are:
 * [Publication](/datamodel/publication.md) - Publication linked to subject and/or variant
 * [LabInfo](/datamodel/LabInfo.md) - Information of process in lab (barcodes, sequencer,etc)
 * [Variant](/datamodel/variant.md) - Identifier of an allele/genotype (HGVS)
+* [Library](/datamodel/Library.md) - Information for library used in experiment
+ 
 
 CodeList (Ontologies)
 * [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
