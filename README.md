@@ -17,6 +17,7 @@ All entities are:
 * [File](/datamodel/file.md) - Individual files on file systems so we can find them back, linked to the datasets describing them.
 * [Person](/datamodel/person.md) - Researcher or other person involved in the study  
 * [Job](/datamodel/job.md) - Jobs used to process sampledata
+* [Run](/datamodel/run.md) - Container of jobs
 * [Dataset](/datamodel/dataset.md) - Collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
 * [Disease inheritance](/datamodel/diseaseInheritance.md) - Description of known inheritance linked to disease and possibly mutation
 * [Publication](/datamodel/publication.md) -Publication linked to subject and/or variant
