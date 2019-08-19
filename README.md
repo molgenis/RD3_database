@@ -28,4 +28,5 @@ CodeList (Ontologies)
 * [disease](/datamodel/disease.md) - ICD-10 codes example_data; from C00 till C06.2
 * [materialType](/datamodel/materialType.md) - Code list for materialType, e.g. DNA
 * [phenotype](/datamodel/phenotype.md) - Code list for phenotype, e.g. HPO term
+* [Sex](/datamodel/sex.md) - code list for sex. E.g. 'M'
 
