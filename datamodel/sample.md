@@ -17,8 +17,9 @@ Attributes:
 ## Discussion ##
 
 
-| Remarks    | Changed  |
-| ------------ | ---------- |
-| EGA creates versioned Accession numbers for all files, extra identifier | Not Yet |
-| ERN info linked to sample | Not Yet |
-| Samples table requires an "Enrichment kit" | Not Yet |
+| Attribute | Remarks    | Changed  |
+| ------------ | ------------ | ---------- |
+| identifier | EGA creates versioned Accession numbers for all files, extra identifier | Not Yet |
+| Not Present | ERN info linked to sample | Not Yet |
+| Not Present | Samples table requires an "Enrichment kit" | Not Yet |
+| Not Present | Flag samples that are boggy | Not Yet |
