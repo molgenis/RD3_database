@@ -19,11 +19,12 @@ All entities are:
 * [Job](/datamodel/job.md) - Jobs used to process sampledata
 * [Dataset](/datamodel/dataset.md) - Collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
 * [Disease inheritance](/datamodel/diseaseInheritance.md) - Description of known inheritance linked to disease and possibly mutation
+* [Publication](/datamodel/publication.md) -Publication linked to subject and/or variant
 
 CodeList (Ontologies)
 * [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
 * [dataUseConditions](/datamodel/dataUseConditions.md) -  Code list describing different types of conditions to access the data
 * [disease](/datamodel/disease.md) - ICD-10 codes example_data; from C00 till C06.2
 * [materialType](/datamodel/materialType.md) - Code list for materialType, e.g. DNA
-* phenotype - Code list for phenotype, e.g. HPO term
+* [phenotype](/datamodel/phenotype.md) - Code list for phenotype, e.g. HPO term
 
