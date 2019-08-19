@@ -26,3 +26,5 @@ Attributes:
 | It is not entirely clear what happens if a subject has multiple diseases. Is the subject for instance‘affected’ yes? | Not Yet |
 | In the term ‘variant’ it is not clear if these are variants that the subject is carrying, or if those are variants published in the literature. | Not Yet |
 | Subjects table - requires an "ERN" field | Not Yet |
+| Relations in the PED format | Under discussion |
+| The child can have an unknown sex (before analysis) | Under discussion |
