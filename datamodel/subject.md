@@ -28,3 +28,4 @@ Attributes:
 | variant | In the term ‘variant’ it is not clear if these are variants that the subject is carrying, or if those are variants published in the literature. | Not Yet |
 | NOT persent | Subjects table - requires an "ERN" field | Not Yet |
 | sex | The child can have an unknown sex (before analysis) | Under discussion |
+| phenotype | Extra phenotype information by adding:PhenopacketsID? | Not Yet |
