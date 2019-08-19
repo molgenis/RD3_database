@@ -15,3 +15,4 @@ Attributes:
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
 | NO | Would this be equivalent to an Experiment or rather a cohort? This is, several experiments (WES, WGS, BS-Seq etc. can be done from a single DNA sample). | Need to be discussed |
+| Not present| Text field for identification incorrect experiment | Not yet |
