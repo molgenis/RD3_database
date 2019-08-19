@@ -22,7 +22,7 @@ All entities are:
 CodeList (Ontologies)
 * [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
 * [dataUseConditions](/datamodel/dataUseConditions.md) -  Code list describing different types of conditions to access the data
-* disease - ICD-10 codes example_data; from C00 till C06.2
+* [disease](/datamodel/disease.md) - ICD-10 codes example_data; from C00 till C06.2
 * materialType - Code list for materialType, e.g. DNA
 * phenotype - Code list for phenotype, e.g. HPO term
 
