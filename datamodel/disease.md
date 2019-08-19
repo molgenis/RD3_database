@@ -15,4 +15,4 @@ Attributes:
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
 | ALL | We use the Orphanet Rare Disease Ontology (ORDO). In many cases this can be “empty” and inheritance can be filled in. | Not Yet |
-| Not present | Should age of onset be included? | Not yet |
+| Not present | Should age of onset be included? | Not Yet |
