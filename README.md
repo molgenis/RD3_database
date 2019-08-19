@@ -16,6 +16,7 @@ All entities are:
 * [Sample](/datamodel/sample.md) - Samples used as input for the analysis
 * File - Individual files on file systems so we can find them back, linked to the datasets describing them.
 * Person 
+* [Dataset](/datamodel/dataset.md) - Collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
 
 CodeList (Ontologies)
 * [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
