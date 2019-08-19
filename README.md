@@ -20,7 +20,9 @@ All entities are:
 * [Run](/datamodel/run.md) - Container of jobs
 * [Dataset](/datamodel/dataset.md) - Collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
 * [Disease inheritance](/datamodel/diseaseInheritance.md) - Description of known inheritance linked to disease and possibly mutation
-* [Publication](/datamodel/publication.md) -Publication linked to subject and/or variant
+* [Publication](/datamodel/publication.md) - Publication linked to subject and/or variant
+* [LabInfo](/datamodel/LabInfo.md) - Information of process in lab (barcodes, sequencer,etc)
+* [Variant](/datamodel/variant.md) - Identifier of an allele/genotype (HGVS)
 
 CodeList (Ontologies)
 * [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
