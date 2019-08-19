@@ -4,7 +4,7 @@ As part of the [Solve-RD](http://solve-rd.eu/) we are developing a metadata data
 
 The core model for this database is designed to store sample, subject and file metadata. Using existing standards.
 
-Datamodel:
+##### Datamodel #####
 
 ![alt text](/datamodel/rd3_version1.jpeg "version1")
 
@@ -37,3 +37,8 @@ CodeList (Ontologies)
 * [phenotype](/datamodel/phenotype.md) - Code list for phenotype, e.g. HPO term
 * [Sex](/datamodel/sex.md) - code list for sex. E.g. 'M'
 
+##### EMX #####
+
+The default import format for MOLGENIS is 'EMX'. This is a flexible spreadsheet format (Excel, CSV) that allows you to annotate your data with a data model. This works because you can tell MOLGENIS the 'model' of your data via a special sheet named 'attributes'.
+
+* [Latest verion EMX](/EMX/RD3_EMX_v1.xlsx)
