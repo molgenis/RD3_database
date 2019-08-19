@@ -16,3 +16,11 @@ All entities are:
 * [Sample](/datamodel/sample.md) - Samples used as input for the analysis
 * File - Individual files on file systems so we can find them back, linked to the datasets describing them.
 * Person 
+
+CodeList (Ontologies)
+* [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
+* dataUseConditions -  Code list describing different types of conditions to access the data
+* disease - ICD-10 codes example_data; from C00 till C06.2
+* materialType - Code list for materialType, e.g. DNA
+* phenotype - Code list for phenotype, e.g. HPO term
+
