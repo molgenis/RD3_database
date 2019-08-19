@@ -41,4 +41,4 @@ CodeList (Ontologies)
 
 The default import format for [MOLGENIS](https://www.molgenis.org/) is 'EMX'. This is a flexible spreadsheet format (Excel, CSV) that allows you to annotate your data with a data model. This works because you can tell MOLGENIS the 'model' of your data via a special sheet named 'attributes'.
 
-* [Latest verion EMX](/EMX/RD3_EMX_v1.xlsx)
+* [Latest version EMX](/EMX/RD3_EMX_v1.xlsx)
