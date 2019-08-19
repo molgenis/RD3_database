@@ -10,7 +10,7 @@ Datamodel:
 
 All entities are:
 
-* Study - Container for all activities. Contains datasets
+* [Study](/datamodel/study.md) - Container for all activities. Contains datasets
 * [Organisation](/datamodel/organisation.md) - Organisation involved in the study
 * [Subject](/datamodel/subject.md) - Human subjects, typically patients or family members
 * [Sample](/datamodel/sample.md) - Samples used as input for the analysis
