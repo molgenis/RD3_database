@@ -14,4 +14,4 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
-| All | Decide how we are going to capture data use conditions and make them computable in the project, need to add code list conform wiyh A-DAM and DUO | Need to be discussed |
+| All | Decide how we are going to capture data use conditions and make them computable in the project, need to add code list conform with [ADA-M](https://github.com/ga4gh/ADA-M) and [DUO](https://duos.broadinstitute.org/#/home) | Need to be discussed |
