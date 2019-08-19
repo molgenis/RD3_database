@@ -15,7 +15,7 @@ All entities are:
 * [Subject](/datamodel/subject.md) - Human subjects, typically patients or family members
 * [Sample](/datamodel/sample.md) - Samples used as input for the analysis
 * [File](/datamodel/file.md) - Individual files on file systems so we can find them back, linked to the datasets describing them.
-* Person 
+* [Person](/datamodel/person.md) - Researcher or other person involved in the study  
 * [Job](/datamodel/job.md) - Jobs used to process sampledata
 * [Dataset](/datamodel/dataset.md) - Collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
 * [Disease inheritance](/datamodel/diseaseInheritance.md) - Description of known inheritance linked to disease and possibly mutation
@@ -24,6 +24,6 @@ CodeList (Ontologies)
 * [anatomicalLocation](/datamodel/anatomicalLocation.md) - Code list for anatomicalLocation used for sampling. E.g. Blood
 * [dataUseConditions](/datamodel/dataUseConditions.md) -  Code list describing different types of conditions to access the data
 * [disease](/datamodel/disease.md) - ICD-10 codes example_data; from C00 till C06.2
-* materialType - Code list for materialType, e.g. DNA
+* [materialType](/datamodel/materialType.md) - Code list for materialType, e.g. DNA
 * phenotype - Code list for phenotype, e.g. HPO term
 
