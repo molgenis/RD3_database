@@ -21,6 +21,6 @@ Attributes:
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
 | Remark | We will only be providing some of this information now, but it is great that it is already broader, as this will become more important for new data. | |
-| seType | Different readlengths are possible (for instance SR 35-bp, or PE 150-bp). What about non-Illumina sequencers? Nanopore/PacBio/IonTorrent. Are these supported by this format? | Not Yet |
-| Enrichment kit | was caputure kit, changed to enrichment kit | YES |
+| seqType | Different readlengths are possible (for instance SR 35-bp, or PE 150-bp). What about non-Illumina sequencers? Nanopore/PacBio/IonTorrent. Are these supported by this format? | Not Yet |
+| Enrichment kit | was caputure kit, changed to enrichment kit | Done |
 | Question | Where to put Analysis, metadata? | Answer |
