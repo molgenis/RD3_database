@@ -22,7 +22,8 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
-| Family relationship | What about prenatal samples? Mother and child? | added relation |
+| Family relationship | What about prenatal samples? Mother and child? | added family relation ID |
+| Family relationship | Trio info | paternal ID and maternal ID has to be added |
 | Family relationship | Relations in the PED format | Under discussion |
 | clinical_status | It is not entirely clear what happens if a subject has multiple diseases. Is the subject for instance‘affected’ yes? | Not Yet |
 | variant | In the term ‘variant’ it is not clear if these are variants that the subject is carrying, or if those are variants published in the literature. | Not Yet |
