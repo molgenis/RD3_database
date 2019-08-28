@@ -27,7 +27,7 @@ Attributes:
 | Family relationship | Relations in the PED format | Later, when PED format is ready |
 | clinical_status | It is not entirely clear what happens if a subject has multiple diseases. Is the subject for instance‘affected’ yes? | Not Yet |
 | variant | In the term ‘variant’ it is not clear if these are variants that the subject is carrying, or if those are variants published in the literature. | Not Yet |
-| NOT present | Subjects table - requires an "ERN" field | Not Yet |
+| NOT present | Subjects table - requires an "ERN" field | Done |
 | sex | The child can have an unknown sex (before analysis) | Under discussion |
 | phenotype | Extra phenotype information by adding:PhenopacketsID? | Not Yet |
 | Remark | In general, the experiment and the subject are submitted by the same organization, but there could be exeptions to this rule, so it is great to have the attributes both in the subject and in the experiment.| Not Yet
