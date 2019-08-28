@@ -21,6 +21,6 @@ Attributes:
 | ------------ | ------------ | ---------- |
 | identifier | EGA creates versioned Accession numbers for all files, extra identifier | Not Yet |
 | identifier | persistent identifier (Elixer ID, via SURF) | Not Yet |
-| Not Present | ERN info linked to sample | Not Yet |
+| Not Present | ERN info linked to sample | Done |
 | Not Present | Samples table requires an "Enrichment kit" | Not Yet |
 | Not Present | Flag samples that are boggy | Not Yet |
