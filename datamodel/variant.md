@@ -22,3 +22,5 @@ Attributes:
 | Not Present | HGVS should be linked to or explained | Not Yet|
 | Remark | Variant notation may not work for CNVs (especially ref and alt) | Not Yet |
 | Question | What about structural variations (for instance a translocation?) | Not Yet |
+| hgvs_cdna | add new option field "human genome reference assembly" | Not Yet |
+| Not present | option on types of variants other fields visible | Not Yet |
