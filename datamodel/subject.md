@@ -22,6 +22,7 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
+| ID | EGA number | Not Yet |
 | Family relationship | What about prenatal samples? Mother and child? | added family relation ID |
 | Family relationship | Trio info | paternal ID and maternal ID has to be added |
 | Family relationship | Relations in the PED format | Later, when PED format is ready |
