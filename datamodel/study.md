@@ -19,4 +19,4 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
-| Question | Unclear how this is implemented in Solve-RD. Is this an experiment for a sample-subject? A cohort? An ERN? | Not Yet |
+| Question | Unclear how this is implemented in Solve-RD. Is this an experiment for a sample-subject? A cohort? An ERN? Can maybe used in cohorts?? | Not Yet |
