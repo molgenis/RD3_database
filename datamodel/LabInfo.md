@@ -1,5 +1,5 @@
 # LabInfo #
-Description of entity LabInfo: information of process in lab (barcodes, sequencer,etc)
+Description of entity LabInfo: information of process in lab (barcodes, sequencer,etc) linked to sample(s)
 
 Attributes:
 *	identifier*: string - sample identifier
@@ -10,7 +10,7 @@ Attributes:
 *	samplePosition: string - lane, or possition in well (A1 t/mH12)
 *	library: mref(Library) - link to more information about the library used in experiment
 *	sequencer: string - sequencerinfo
-*	seqType: enum - PE(pair-end), SR (single read)GAP
+*	seqType: xref(SequencingTechniqueType) - sequencing technique types (e.g. WXS, WGS)
 *	Enrichment kit: string - Enrichment kit
 
 ---
@@ -21,6 +21,4 @@ Attributes:
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
 | Remark | We will only be providing some of this information now, but it is great that it is already broader, as this will become more important for new data. | |
-| seqType | Different readlengths are possible (for instance SR 35-bp, or PE 150-bp). What about non-Illumina sequencers? Nanopore/PacBio/IonTorrent. Are these supported by this format? | Not Yet |
-| Enrichment kit | was caputure kit, changed to enrichment kit | Done |
-| Question | Where to put Analysis, metadata? | Answer |
+| Question | Where to put Analysis, metadata? |If extra fields are necessary, add new issue|
