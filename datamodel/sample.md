@@ -3,14 +3,17 @@
 Description of entity Sample: Samples used as input for the analysis
 
 Attributes:
-*	subject: xref(subject) - reference to the subject from which samples was extracted
+*	EGA Accession Number: string - EGA Accession Number
 *	identifier*: string - unique identifier
 *	alternativeIdentifier: string - alternative identifier used by sample provider
-*	anatomicalLocation: xref(anatomicalLocation)
-*	sex: mref(sex) - gender of subject
-*	materialType: mref(materialType) - material type. E.g. DNA
-*	organisation: xref(organisation) - Name of the organisation. E.g. University Medical Center Groningen
-
+*	ERN: string - ERN
+*	anatomicalLocation: xref(AnatomicalLocation)
+*	subject: xref(Subject) - reference to the subject from which samples was extracted
+*	Claimed sex: xref(Sex) - Claimed Sex / Sex at birth (can be different from observed sex, see sample)
+*	Observed seks: xref(Sex) - Computed sex (based on Y- chromosome)
+*	materialType: mref(MaterialType) - material type. E.g. DNA
+*	Flag Abnormal: bool - Flag Abonormal/boggy samples (True /False)
+*	organisation: xref(Organisation) - Name of the organisation. E.g. University Medical Center Groningen
 
 ---
 
@@ -19,8 +22,5 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ------------ | ------------ | ---------- |
-| identifier | EGA creates versioned Accession numbers for all files, extra identifier | Not Yet |
-| identifier | persistent identifier (Elixer ID, via SURF) | Not Yet |
-| Not Present | ERN info linked to sample | Done |
-| Not Present | Samples table requires an "Enrichment kit" | Not Yet |
-| Not Present | Flag samples that are boggy | Not Yet |
+| identifier | persistent identifier (Elixer ID, via SURF) | Need to be discussed |
+| Not Present | Samples table requires an "Enrichment kit" | Can be found in Labinfo|
