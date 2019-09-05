@@ -1,11 +1,15 @@
 # Dataset #
 
-Description of entity Dataset: collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
+Description of entity Dataset: container of files belonging together (different datasets can contain overlapping files, except for the initial datasets containing start-files (before analysis, start-files = BAM, gVCF files (one per chromosome) and phenopacket file))
 
 Attributes:
-*	description: text - description of the dataset
 *	name*: string - name of dataset
-*	datafiles: mref(file) - all files in dataset (from 1 run, or all raw datafile with same module, depend on wishes and study
+*	description: string - description of the dataset
+*	datafiles: mref(File) - all files linked to dataset
+*	dataUseConditions: mref(dataUseConditions) - data use conditions for dataset
+*	typedataset*: enum - type of dataset (raw or processed (analysed) data)
+*	remarks: text - remarks about dataset
+
 
 ---
 
@@ -14,5 +18,5 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
-| NO | Would this be equivalent to an Experiment or rather a cohort? This is, several experiments (WES, WGS, BS-Seq etc. can be done from a single DNA sample). | Need to be discussed |
-| Not present| Text field for identification incorrect experiment | Not yet |
+| NO | Would this be equivalent to an Experiment or rather a cohort? This is, several experiments (WES, WGS, BS-Seq etc. can be done from a single DNA sample). | See questions |
+
