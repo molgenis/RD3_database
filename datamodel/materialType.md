@@ -1,12 +1,13 @@
 # materialType #
 
-Description of entity materialType: code list for materialType, e.g. DNA
+Description of entity materialType: code list for materialType according to MIABIS-2.0-14, e.g. DNA
 
 Attributes:
-*	ontologyterm*: string - unique term
-*	label*: string - human readable label
-*	description: text - Description of matrialType
-
+* label*: string - name of disease
+* id*: string - ID
+* source: string - source used
+* description: text - description of disease
+* uri: hyperlink - link to more information
 ---
 
 ## Discussion ##
