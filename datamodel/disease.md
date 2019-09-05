@@ -1,11 +1,16 @@
 # Disease #
 
-Description of entity disease: ICD-10 codes example_data; from C00 till C06.2
+Description of entity disease: ICD-10 codes and Orphanetcodes
 
 Attributes:
-•	ontologyterm*: string - diseasecode (ICD-10)
-•	label*: string - name of disease
-•	link: hyperlink - link to ICD-10
+*   children: mref(Disease) - link to childeren disease(s)
+*   id*: string - Disease code
+*   label*: string - name of disease
+*   ontology: string - ontology used
+*   description: text - description of disease
+*   uri: hyperlink - link to more information
+*   parentId: xref(Disease) - link to parent disease
+
 
 ---
 
@@ -14,5 +19,4 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
-| ALL | We use the Orphanet Rare Disease Ontology (ORDO). In many cases this can be “empty” and inheritance can be filled in. | Not Yet |
-| Not present | Should age of onset be included? | Not Yet |
+| Not present | Should age of onset be included? | This is present in SubjectInfo |
