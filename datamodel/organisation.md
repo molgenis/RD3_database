@@ -1,6 +1,6 @@
 # Organisation #
 
-Description of entity Organisation: organisation involved in the study.
+Description of entity Organisation:  submitter of sample/subject and/or contributor of study
 
 Attributes:
 *	identifier*: string - identifier of the organisation. E.g. UMCG 
@@ -14,5 +14,4 @@ Attributes:
 
 
 | Attribute | Remarks    | Changed  |
-| ---------- | ------------ | ---------- |
-| name | Is this the submitting organization of the Solve-RD “experiment”? | Not Yet |
+
