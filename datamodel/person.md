@@ -1,6 +1,6 @@
 # person #
 
-Description of entity Person: researcher or other person involved in the study 
+Description of entity Person: researcher or other person involved in the study and/or affliated with organisation
 
 Attributes:
 *	lastName*: string - last name. E.g. Swertz
@@ -19,4 +19,3 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
-| Question | Is this to collect the submitter/controller of the files/experiments or anyone that accesses the data? | Not Yet | 
