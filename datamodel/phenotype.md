@@ -1,11 +1,14 @@
 # phenotype #
 
-Description of entity phenotype: code list for phenotype, e.g. HPO term
+Description of entity phenotype: HPO code list for phenotype, [bioportal version 2019-06-03](http://bioportal.bioontology.org/ontologies/HP)
 
 Attributes:
-*	ontologyterm*: string - Ontology terms describing phenotype(based on HPO)
-*	label*: string - label of phenotype
-*	description: text - description of phenotype
+* id*: string - HPO code
+* label*: string - label of phenotype
+* description: text - description of phenotype
+* synonyms: text - synonyms phenotype
+* uri: hyperlink - link to more information
+* parents: mref(Phenotype) - link to parent phenotype(s)
 
 ---
 
@@ -14,4 +17,4 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
-| ALL | From [phenopackets](https://phenopackets-schema.readthedocs.io/en/latest/)| Not Yet |
+| ALL | Need to be imported from [phenopackets](https://phenopackets-schema.readthedocs.io/en/latest/)| Not Yet |
