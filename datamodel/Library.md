@@ -1,16 +1,14 @@
 # Library # 
 
-Description of entity Library : Information for library used in experiment
+Description of entity Library : sequencing library information
 
 Attributes:
 *	identifier*: string - name of library used for NGS
-*	designDescription: string - example: entities for CNAG_RD3
-*	libraryConstructionProtocol: string - example: entities for CNAG_RD3
-*	libraryLayoutId: string - example: entities for CNAG_RD3
-*	pairedNominalLength: string - example: entities for CNAG_RD3
-*	librarySelectionId: string - example: entities for CNAG_RD3
-*	libraryStrategyId: string - example: entities for CNAG_RD3
-*	librarySourceId: string - example: entities for CNAG_RD3
+*	designDescription: string - Description of library
+*	libraryConstructionProtocol: string - Construction Protocol library
+*	libraryLayoutId: string - Library Layout: whether to expect SINGLE or PAIRED end reads.
+*	pairedNominalLength: string - Nominal Length: the expected size of the insert.
+*	librarySelectionId: string - Library Selection: the method used to select and/or enrich the material being sequenced.
 
 ---
 
