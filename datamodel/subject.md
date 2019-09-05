@@ -4,16 +4,22 @@ Description of entity Subject: : Human subjects, typically patients or family me
 
 Attributes:
 
-*	variant: mref(variant) - variant associated to the disease in this subject
+*	FamilyID: string - Family ID (FID)
 *	identifier*: string - unique identifier
-*	sex: mref(sex) - sex of the subject
-*	clinical_status: enum - whether it is an affected individuals
-*	disease: mref(disease) - if affected, which main disease code
-*	phenotype: mref(phenotype) - Phenotype based on Human Phenotype Ontology (HPO)
-*	hasNotPhenotype: mref(phenotype) - Relevant Phenotype NOT present in subject
-*	Organisation: xref(organisation) - Name of the organisation. E.g. University Medical Center Groningen
-*	FamilyID: string - Family Number
-*	Family entity relationship: categorical(relation) - Family entity relationship
+*	EGA Accession Number: string - EGA Accession Number
+*	Claimed sex: xref(Sex) - Claimed Sex / Sex at birth (can be different from observed sex, see sample)
+*	variant: mref(Classification Variant) - candidate pathogenic variant(s) for this subject
+*	MaternalID: xref(Subject) - Maternal ID (MID)
+*	PaternalID: xref(Subject) - Paternal ID (PID)
+*	Affected status: bool - whether it is an affected individuals (main disease) Yes/No
+*	disease: mref(Disease) - if affected, which MAIN disease code(s) apply to subject
+*	phenotype: mref(Phenotype) - Phenotype based on Human Phenotype Ontology (HPO)
+*	hasNotPhenotype: mref(Phenotype) - Relevant Phenotype NOT present in subject
+*	PhenopacketsID: string - PhenopacketsID
+*	Organisation: xref(Organisation) - Name of the organisation that submitted Subject
+*	ERN: string - ERN
+*	solved: bool - Solved Case for Solve-RD (true/false)
+*	Remarks: text - Remarks about this Subject (Relevant for SOLVE-RD project)
 
 ---
 
@@ -22,15 +28,6 @@ Attributes:
 
 | Attribute | Remarks    | Changed  |
 | ---------- | ------------ | ---------- |
-| ID | EGA number | Not Yet |
-| Family relationship | What about prenatal samples? Mother and child? | added family relation ID |
-| Family relationship | Trio info | paternal ID and maternal ID has to be added |
-| Family relationship | Relations in the PED format | Later, when PED format is ready |
-| clinical_status | It is not entirely clear what happens if a subject has multiple diseases. Is the subject for instance‘affected’ yes? | Not Yet |
-| clinical_status | 'Affected status' change field name | Not Yet |
-| variant | In the term ‘variant’ it is not clear if these are variants that the subject is carrying, or if those are variants published in the literature. | Not Yet |
-| NOT present | Subjects table - requires an "ERN" field | Done |
-| sex | The child can have an unknown sex (before analysis) | Under discussion |
-| phenotype | Extra phenotype information by adding:PhenopacketsID? | Not Yet |
-| Remark | In general, the experiment and the subject are submitted by the same organization, but there could be exeptions to this rule, so it is great to have the attributes both in the subject and in the experiment.| Not Yet
+| Family relationship | Relations in the PED format | Depended on format PED|
+| phenotype | Extra phenotype information by adding:PhenopacketsID? | If needed add new issue |
 | Not Present | Cohort building, how do we want to register this? In GPAP or RD3 | Need to be discussed|
