@@ -49,7 +49,7 @@ Per Entity attributes that are added:
 | VariantInfo | Description |
 
 
-
+----
  
 ### Removed
 Per Entity attributes that are removed:
@@ -63,6 +63,7 @@ Per Entity attributes that are removed:
 | relation | all | Not needed FID/MID/PID added |
 | SubjectInfo | comments | already present in Subject |
 
+----
 
 ### Other
 
