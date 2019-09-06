@@ -60,6 +60,19 @@ Per Entity attributes that are removed:
 | Library |  librarySourceId | type of source material already in Sample: materialType |
 | disease inheritance | all | for now not specified |
 | Job | Date | lready start and stop date present |
-| relation | all | 
-### Fixed
+| relation | all | Not needed FID/MID/PID added |
+| SubjectInfo | comments | already present in Subject |
+
+
+### Other
+
+| Entity | Attribute | What? |
+| ---- | ----- | ------ |
+| Labinfo | seqType | extra options added, for non-Illumina sequencers and SR 35-bp, or PE 150-bp |
+| Labinfo  | caputure kit | name changed to enrichment kit |
+| sex | label | option added UD; undifferentiated, the gender could not be uniquely identified such as hermaphrodite |
+| VariantInfo | name | attribute name variantInfo changed to Classification Variant (specificly linked to subject, variant is technical information on variant) |
+
+ 
+
  
