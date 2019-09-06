@@ -14,18 +14,21 @@ All entities are:
 * [Organisation](/datamodel/organisation.md) - Organisation involved in the study
 * [Subject](/datamodel/subject.md) - Human subjects, typically patients or family members
 * [SubjectInfo](/datamodel/SubjectInfo.md) - Extra information about subject
-* [Relation](/datamodel/relation.md) - Family entity relationship
 * [Sample](/datamodel/sample.md) - Samples used as input for the analysis
 * [File](/datamodel/file.md) - Individual files on file systems so we can find them back, linked to the datasets describing them.
+* [Filetype](/datamodel/Filetype.md) - type of files (e.g. BAM, gVCF, phenopacket, BED, etc.)
 * [Person](/datamodel/person.md) - Researcher or other person involved in the study  
 * [Job](/datamodel/job.md) - Jobs used to process sampledata
 * [Run](/datamodel/run.md) - Container of jobs
 * [Dataset](/datamodel/dataset.md) - Collection of files, collected in context of a study. Could also call this a 'fileset' if we like that better
-* [Disease inheritance](/datamodel/diseaseInheritance.md) - Description of known inheritance linked to disease and possibly mutation
 * [Publication](/datamodel/publication.md) - Publication linked to subject and/or variant
 * [LabInfo](/datamodel/LabInfo.md) - Information of process in lab (barcodes, sequencer,etc)
+* [SequencingTechniqueType](/datamodel/SequencingTechniqueType.md) -  Sequencing technique types (in CNAG batchfile = ExpType)
 * [Variant](/datamodel/variant.md) - Identifier of an allele/genotype (HGVS)
+* [VariantTypes](/datamodel/VariantTypes.md) - Sequence variant types
 * [VariantInfo](/datamodel/VariantInfo.md) - Extra information about variant
+* [ClinicalClassification](/datamodel/ClinicalClassification.md) - Clinical Classification (1,2,3,4,5)
+* [GenomeBuild](/datamodel/GenomeBuild.md) - Human reference sequence used in UCSC
 * [Library](/datamodel/Library.md) - Information for library used in experiment
  
 
@@ -45,3 +48,8 @@ The default import format for [MOLGENIS](https://www.molgenis.org/) is 'EMX'. Th
 
 * [Changelog](/datamodel/Changelog.md)
 * [Q&A](/q&a.md)
+---
+Entities not in use:
+* [Relation](/datamodel/relation.md) - Family entity relationship
+* [Disease inheritance](/datamodel/diseaseInheritance.md) - Description of known inheritance linked to disease and possibly mutation
+
