@@ -43,5 +43,5 @@ The default import format for [MOLGENIS](https://www.molgenis.org/) is 'EMX'. Th
 
 * [Latest version EMX](/EMX/RD3_EMX_v1.xlsx)
 
-* [Changelog](/datamodel/changelog.md)
+* [Changelog](/datamodel/Changelog.md)
 * [Q&A](/q&a.md)
