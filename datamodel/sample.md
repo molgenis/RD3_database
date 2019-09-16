@@ -24,3 +24,4 @@ Attributes:
 | ------------ | ------------ | ---------- |
 | identifier | persistent identifier (Elixer ID, via SURF) | Need to be discussed |
 | Not Present | Samples table requires an "Enrichment kit" | Can be found in Labinfo|
+| Not present | “Possible QC fail” and ”Confirmed QC fail” plus text field, need to be added, what about flag boggy samples field?? | Need to be discussed |
