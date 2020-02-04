@@ -1,6 +1,6 @@
 # Entity relationship diagram for RD3 database #
 
-Latest model: v1.1
+Latest model: v1.2
 
 ![alt text](/UML/RD3_v1.2_UML_diagram.png)
 
