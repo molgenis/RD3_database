@@ -26,10 +26,12 @@ All entities are:
 * [SequencingTechniqueType](/datamodel/SequencingTechniqueType.md) -  Sequencing technique types (in CNAG batchfile = ExpType)
 * [Variant](/datamodel/variant.md) - Identifier of an allele/genotype (HGVS)
 * [VariantTypes](/datamodel/VariantTypes.md) - Sequence variant types
-* [VariantInfo](/datamodel/VariantInfo.md) - Extra information about variant
 * [ClinicalClassification](/datamodel/ClinicalClassification.md) - Clinical Classification (1,2,3,4,5)
 * [GenomeBuild](/datamodel/GenomeBuild.md) - Human reference sequence used in UCSC
 * [Library](/datamodel/Library.md) - Information for library used in experiment
+* Library Source - Library Source, e.g Genomic/Transcriptomic
+* European Refernce Networks - European Reference Networks, source: https://ec.europa.eu/health/ern/networks_en
+* Tissue Types - TissueTypes, source is GTeX; https://www.gtexportal.org/home/tissueSummaryPage
  
 
 CodeList (Ontologies)
@@ -52,4 +54,5 @@ The default import format for [MOLGENIS](https://www.molgenis.org/) is 'EMX'. Th
 Entities not in use:
 * [Relation](/datamodel/relation.md) - Family entity relationship
 * [Disease inheritance](/datamodel/diseaseInheritance.md) - Description of known inheritance linked to disease and possibly mutation
+* [VariantInfo](/datamodel/VariantInfo.md) - Extra information about variant
 
