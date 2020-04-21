@@ -6,7 +6,7 @@ The core model for this database is designed to store sample, subject and file m
 
 ### Datamodel ###
 
-![v1.2](/UML/RD3_v1.2_UML_diagram.png)
+![v1.3](/UML/RD3_v1.3_UML_diagram.svg)
 
 All entities are:
 
