@@ -9,6 +9,7 @@ Attributes:
 *	barcode: string - barcode involved
 *	samplePosition: string - lane, or possition in well (A1 t/mH12)
 *	library: mref(Library) - link to more information about the library used in experiment
+* Library Source: categorical(library source) - Library Source, e.g Genomic/Transcriptomic
 *	sequencer: string - sequencerinfo
 *	seqType: xref(SequencingTechniqueType) - sequencing technique types (e.g. WXS, WGS)
 *	Enrichment kit: string - Enrichment kit
