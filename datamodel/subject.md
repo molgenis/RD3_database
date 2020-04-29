@@ -20,6 +20,8 @@ Attributes:
 *	ERN: string - ERN
 *	solved: bool - Solved Case for Solve-RD (true/false)
 *	Remarks: text - Remarks about this Subject (Relevant for SOLVE-RD project)
+* MatchMaker Permission: bool - consent, Permission is given for MatchMaking
+* No Incidental Findings: bool - consent, Do NOT report incidental findings back
 
 ---
 
