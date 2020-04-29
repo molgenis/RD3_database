@@ -29,9 +29,9 @@ All entities are:
 * [ClinicalClassification](/datamodel/ClinicalClassification.md) - Clinical Classification (1,2,3,4,5)
 * [GenomeBuild](/datamodel/GenomeBuild.md) - Human reference sequence used in UCSC
 * [Library](/datamodel/Library.md) - Information for library used in experiment
-* Library Source - Library Source, e.g Genomic/Transcriptomic
-* European Refernce Networks - European Reference Networks, source: https://ec.europa.eu/health/ern/networks_en
-* Tissue Types - TissueTypes, source is GTeX; https://www.gtexportal.org/home/tissueSummaryPage
+* Library Source(/datamodel/LibrarySource.md) - Library Source, e.g Genomic/Transcriptomic
+* European Refernce Networks(/datamodel/ERN.md) - European Reference Networks, source: https://ec.europa.eu/health/ern/networks_en
+* Tissue Types(/datamodel/TissueType.md) - TissueTypes, source is GTeX; https://www.gtexportal.org/home/tissueSummaryPage
  
 
 CodeList (Ontologies)
