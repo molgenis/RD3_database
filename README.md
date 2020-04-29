@@ -31,7 +31,7 @@ All entities are:
 * [Library](/datamodel/Library.md) - Information for library used in experiment
 * [Library Source](/datamodel/LibrarySource.md) - Library Source, e.g Genomic/Transcriptomic
 * [European Reference Networks](/datamodel/ERN.md) - European Reference Networks, source: https://ec.europa.eu/health/ern/networks_en
-* [Tissue Types](/datamodel/TissueType.md) - TissueTypes, source is GTeX; https://www.gtexportal.org/home/tissueSummaryPage
+* [Tissue Types](/datamodel/TissueTypes.md) - TissueTypes, source is GTeX; https://www.gtexportal.org/home/tissueSummaryPage
  
 
 CodeList (Ontologies)
